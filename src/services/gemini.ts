@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import { Message, Role } from "../types";
 
 const ai = new GoogleGenAI({ 
-  apiKey: process.env.GEMINI_API_KEY || '' 
+  apiKey: process.env.GEMINI_API_KEY || 'AIzaSyAXmV09j9ycd0WKZqKhYQ1pOPgYqPZBM5A' 
 });
 
 const model = "gemini-3-flash-preview";
